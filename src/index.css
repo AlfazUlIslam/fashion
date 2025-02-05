@@ -4,6 +4,8 @@
     --dark-yellow: #FFAF37;
     --light-beige: #FEECC8;
     --dark-beige: #CFA485;
+
+    --poppins: "Poppins", serif;
 }
 
 * {
@@ -11,4 +13,8 @@
     margin: 0;
     box-sizing: border-box;
     font: inherit;
+}
+
+button {
+    all: unset;
 }

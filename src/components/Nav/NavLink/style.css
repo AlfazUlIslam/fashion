@@ -1,0 +1,22 @@
+.nav__link {
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: linear 0.4s;
+
+    @media (min-width: 576px) {
+        font-size: 18px;
+    }
+
+    /* 
+    1300px
+    font-size: 24px;
+    */
+}
+
+.nav__link:hover {
+    color: var(--medium-yellow);
+}
