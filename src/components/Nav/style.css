@@ -7,14 +7,14 @@
     }
 }
 
-.nav__container {
+.NavContainer {
     padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav__logo {
+.NavLogo {
     width: 5rem;
 
     @media (min-width: 576px) {
@@ -30,11 +30,11 @@
     }
 }
 
-.nav__logo img {
+.NavLogo img {
     width: 100%;
 }
 
-.nav__menu {
+.NavMenu {
     display: none;
 
     @media (min-width: 768px) {
@@ -48,7 +48,7 @@
     }
 }
 
-.nav__links {
+.NavLinks {
     display: flex;
     gap: 10px;
 
@@ -61,7 +61,7 @@
     }
 }
 
-.nav__menu-btns {
+.NavMenuBtns {
     display: flex;
     gap: 5px;
 
@@ -70,7 +70,7 @@
     }
 }
 
-.nav__mobile-menu-container {
+.NavMobileMenuContainer {
     display: block;
     position: relative;
 
@@ -79,7 +79,7 @@
     }
 }
 
-.nav__mobile-menu-btn {
+.NavMobileMenuBtn {
     --base-unit: 2px;
     @media (min-width: 576px) { --base-unit: 3px; }
 
@@ -92,26 +92,26 @@
     gap: calc(var(--base-unit) * 3);
 }
 
-.nav__mobile-menu-btn div {
+.NavMobileMenuBtn div {
     width: 100%;
     height: var(--base-unit);
     background: #000;
     transition: linear 0.4s;
 }
 
-.nav__mobile-menu-btn--toggled div:nth-of-type(1) {
+.NavMobileMenuBtnToggled div:nth-of-type(1) {
     transform: translateY(calc(var(--base-unit) * 3)) rotate(45deg);
 }
 
-.nav__mobile-menu-btn--toggled div:nth-of-type(2) {
+.NavMobileMenuBtnToggled div:nth-of-type(2) {
     display: none;
 }
 
-.nav__mobile-menu-btn--toggled div:nth-of-type(3) {
+.NavMobileMenuBtnToggled div:nth-of-type(3) {
     transform: translateY(calc(var(--base-unit) * -1)) rotate(-45deg);
 }
 
-.nav__mobile-menu {
+.NavMobileMenu {
     width: 9rem;
     border-radius: 0.5rem;
     border: 1px solid #bbb;
@@ -130,21 +130,21 @@
     }
 }
 
-.nav__mobile-menu--flex {
+.NavMobileMenuFlex {
     display: flex;
 }
 
-.nav__mobile-menu--hidden {
+.NavMobileMenuHidden {
     display: none;
 }
 
-.nav__mobile-menu-links {
+.NavMobileMenuLinks {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav__mobile-menu-btns {
+.NavMobileMenuBtns {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,4 +1,4 @@
-.nav__link {
+.NavLink {
     font-family: var(--poppins);
     font-weight: 600;
     font-size: 16px;
@@ -24,6 +24,6 @@
     }
 }
 
-.nav__link:hover {
+.NavLink:hover {
     color: var(--medium-yellow);
 }

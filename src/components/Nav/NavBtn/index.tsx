@@ -9,7 +9,7 @@ const NavBtn: React.FC<Props> = (props) => {
     const { content } = props
         
     return (
-        <button className="nav__btn">
+        <button className="NavBtn">
             {content}
         </button>
     )

@@ -11,7 +11,7 @@ const NavLink: React.FC<Props> = (props) => {
         
     return (
         <a 
-            className="nav__link"
+            className="NavLink"
             href={href}
         >
             {content}

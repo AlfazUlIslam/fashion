@@ -14,33 +14,33 @@ const Nav: React.FC = () => {
         
     return (
         // Nav
-        <nav className="nav">
+        <nav className="Nav">
             {/* Nav container */}
-            <Container classes="nav__container">
+            <Container classes="NavContainer">
                 {/* Nav logo */}
-                <div className="nav__logo">
+                <div className="NavLogo">
                     <img src={logo} alt="Fashion Logo" />
                 </div>
                 {/* Nav menu */}
-                <div className="nav__menu">
-                    <div className="nav__links">
+                <div className="NavMenu">
+                    <div className="NavLinks">
                         <NavLink href="#hero" content="Home" />
                         <NavLink href="#collection" content="Collection" />
                         <NavLink href="#about" content="About" />
                         <NavLink href="#trends" content="Trends" />
                         <NavLink href="#footer" content="Contact" />
                     </div>
-                    <div className="nav__menu-btns">
+                    <div className="NavMenuBtns">
                         <NavBtn content="Login" />
                         <NavBtn content="Sign up" />
                     </div>
                 </div>
                 {/* Nav mobile menu container */}
-                <div className="nav__mobile-menu-container">
+                <div className="NavMobileMenuContainer">
                     {/* Nav mobile menu button */}
                     <button 
-                        className={`nav__mobile-menu-btn 
-                        ${toggle ? "nav__mobile-menu-btn--toggled" : ""}`}
+                        className={`NavMobileMenuBtn 
+                        ${toggle ? "NavMobileMenuBtnToggled" : ""}`}
                         onClick={handleToggle}
                     >
                         <div></div>
@@ -48,17 +48,17 @@ const Nav: React.FC = () => {
                         <div></div>
                     </button>
                     {/* Nav mobile menu */}
-                    <div className={`nav__mobile-menu 
-                    ${toggle ? "nav__mobile-menu--flex" : 
-                    "nav__mobile-menu--hidden"}`}>
-                        <div className="nav__mobile-menu-links">
+                    <div className={`NavMobileMenu 
+                    ${toggle ? "NavMobileMenuFlex" : 
+                    "NavMobileMenuHidden"}`}>
+                        <div className="NavMobileMenuLinks">
                             <NavLink href="#hero" content="Home" />
                             <NavLink href="#collection" content="Collection" />
                             <NavLink href="#about" content="About" />
                             <NavLink href="#trends" content="Trends" />
                             <NavLink href="#footer" content="Contact" />
                         </div>
-                        <div className="nav__mobile-menu-btns">
+                        <div className="NavMobileMenuBtns">
                             <NavBtn content="Login" />
                             <NavBtn content="Sign up" />
                         </div>
