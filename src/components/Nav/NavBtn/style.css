@@ -46,3 +46,7 @@
 .nav__btn:hover {
     background: var(--medium-yellow);
 }
+
+.nav__btn:active {
+    transform: scale(0.9);
+}
