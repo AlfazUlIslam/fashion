@@ -1,0 +1,43 @@
+.HeroContainer {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroColumnOne {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroHeading {
+    width: 450px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 64px;
+    color: #262626;
+}
+
+.HeroDescription {
+    width: 500px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 22px;
+    color: #262626;
+    margin: 40px 0 75px;
+}
+
+.HeroColumnTwo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.HeroImage {
+    width: 500px;
+}
+
+.HeroImage img {
+    width: 100%;
+}

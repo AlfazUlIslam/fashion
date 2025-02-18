@@ -1,5 +1,5 @@
 import logo from "./logo.png"
-import bannerImage from "./banner-image.png"
+import heroImage from "./banner-image.png"
 import newCollectionImageOne from "./new-collection-image-1.png"
 import newCollectionImageTwo from "./new-collection-image-2.png"
 import newCollectionImageThree from "./new-collection-image-3.png"
@@ -12,7 +12,7 @@ import linkedIn from "./linked-in.png"
 
 export {
     logo,
-    bannerImage,
+    heroImage,
     newCollectionImageOne,
     newCollectionImageTwo,
     newCollectionImageThree,
