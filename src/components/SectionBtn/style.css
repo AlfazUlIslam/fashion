@@ -2,17 +2,18 @@
     width: 320px;
     height: 85px;
     border-radius: 10px;
-    background: #000;
+    background: #262626;
     font-family: var(--poppins);
     font-weight: 600;
     font-size: 24px;
     color: #fff;
     text-align: center;
+    cursor: pointer;
     transition: linear 0.4s;
 }
 
 .SectionBtn:hover {
-    background: #262626;
+    background: #000;
 }
 
 .SectionBtn:active {
