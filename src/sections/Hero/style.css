@@ -1,41 +1,83 @@
 .HeroContainer {
     padding: 2rem;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
+
+    /* 
+    1300 
+    flex-direction: row;
+    gap: 0;
+    */
+    
 }
 
 .HeroColumnOne {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    /* 
+    1300
+    width: 50%;
+    align-items: flex-start;
+    */
 }
 
 .HeroHeading {
-    width: 450px;
+    width: 300px;
     font-family: var(--poppins);
     font-weight: 600;
-    font-size: 64px;
+    font-size: 34px;
     color: #262626;
+    text-align: center;
+    /* 
+    1300
+    width: 450px;
+    font-size: 64px;
+    text-align: start;
+    */
 }
 
 .HeroDescription {
-    width: 500px;
+    width: 280px;
     font-family: var(--poppins);
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
     color: #262626;
+    text-align: center;
+    margin: 10px 0 35px;
+
+    /* 
+    1300
+    width: 500px;
+    font-size: 22px;
+    text-align: start;
     margin: 40px 0 75px;
+    */
 }
 
 .HeroColumnTwo {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
+
+    /* 
+    1300
+    width: 50%;
+    */
 }
 
 .HeroImage {
+    width: 300px;
+
+    /* 
+    1300
     width: 500px;
+    */
 }
 
 .HeroImage img {
