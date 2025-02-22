@@ -11,13 +11,19 @@
     cursor: pointer;
     transition: linear 0.4s;
 
-    /* 
-    1300
-    width: 320px;
-    height: 85px;
-    border-radius: 10px;
-    font-size: 24px;
-    */
+    @media (min-width: 576px) {
+        width: 180px;
+        height: 50px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    @media (min-width: 1300px) {
+        width: 320px;
+        height: 85px;
+        border-radius: 10px;
+        font-size: 24px;
+    }
 }
 
 .SectionBtn:hover {

@@ -6,12 +6,10 @@
     align-items: center;
     gap: 32px;
 
-    /* 
-    1300 
-    flex-direction: row;
-    gap: 0;
-    */
-    
+    @media (min-width: 768px) {
+        flex-direction: row;
+        gap: 0;
+    }    
 }
 
 .HeroColumnOne {
@@ -19,12 +17,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* 
-    1300
-    width: 50%;
-    align-items: flex-start;
-    */
+    
+    @media (min-width: 768px) {
+        width: 50%;
+        align-items: flex-start;
+    }
 }
 
 .HeroHeading {
@@ -34,12 +31,26 @@
     font-size: 34px;
     color: #262626;
     text-align: center;
-    /* 
-    1300
-    width: 450px;
-    font-size: 64px;
-    text-align: start;
-    */
+
+    @media (min-width: 576px) {
+        width: 450px;
+        font-size: 50px;
+    }
+    
+    @media (min-width: 768px) {
+        width: 300px;
+        font-size: 40px;
+        text-align: start;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 45px;
+    }
+
+    @media (min-width: 1300px) {
+        width: 450px;
+        font-size: 64px;
+    }
 }
 
 .HeroDescription {
@@ -51,13 +62,27 @@
     text-align: center;
     margin: 10px 0 35px;
 
-    /* 
-    1300
-    width: 500px;
-    font-size: 22px;
-    text-align: start;
-    margin: 40px 0 75px;
-    */
+    @media (min-width: 576px) {
+        width: 450px;
+        font-size: 20px;
+    }
+
+    @media (min-width: 768px) {
+        width: 280px;
+        font-size: 16px;
+        text-align: start;
+    }
+    
+    @media (min-width: 992px) {
+        width: 320px;
+        font-size: 18px;
+    }
+
+    @media (min-width: 1300px) {
+        width: 500px;
+        font-size: 22px;
+        margin: 40px 0 75px;
+    }
 }
 
 .HeroColumnTwo {
@@ -65,19 +90,21 @@
     display: flex;
     justify-content: center;
 
-    /* 
-    1300
-    width: 50%;
-    */
+    @media (min-width: 768px) {
+        width: 50%;
+    }
 }
 
 .HeroImage {
     width: 300px;
 
-    /* 
-    1300
-    width: 500px;
-    */
+    @media (min-width: 576px) {
+        width: 400px;
+    }
+
+    @media (min-width: 1300px) {
+        width: 500px;
+    }
 }
 
 .HeroImage img {
