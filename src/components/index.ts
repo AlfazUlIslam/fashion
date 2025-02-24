@@ -1,2 +1,5 @@
 export { default as Nav } from "./Nav"
 export { default as SectionBtn } from "./SectionBtn"
+export { default as Heading } from "./Heading"
+export { default as Description } from "./Description"
+export { default as CollectionCard } from "./CollectionCard"
