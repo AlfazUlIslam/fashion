@@ -10,7 +10,7 @@ const index: React.FC<Props> = (props) => {
     const { children, classes } = props
         
     return (
-        <div className={`${classes} Container`}>
+        <div className={`${classes} container`}>
             {children}
         </div>
     )
