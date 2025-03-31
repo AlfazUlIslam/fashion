@@ -1,5 +1,9 @@
 .heading {
     font-family: var(--frank-ruhl-libre);
     font-weight: 700;
-    font-size: 64px;
+    font-size: 34px;
+
+    /* @media (min-width: 1300px) {
+        font-size: 64px;
+    } */
 }

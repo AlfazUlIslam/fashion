@@ -3,11 +3,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
+
+    /* @media (min-width: 1300px) {
+        gap: 40px;
+    } */
+}
+
+.collection__description {
+    width: 300px;
+    text-align: center;
 }
 
 .collection__cards {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    /* @media (min-width: 1300px) {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    } */
 }
