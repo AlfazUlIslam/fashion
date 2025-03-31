@@ -8,7 +8,6 @@
 
 .collection__cards {
     width: 100%;
-    background: tomato;
     display: flex;
     justify-content: space-between;
 }

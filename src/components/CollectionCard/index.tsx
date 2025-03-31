@@ -15,7 +15,7 @@ const CollectionCard: React.FC<Props> = (props) => {
             <div className="collection__card-img-container">
                 <img src={image} alt={altText} />
             </div>
-            <button className="collection__card-btn" style={{background:"#700"}}>
+            <button className="collection__card-btn">
                 {content}
             </button>
         </div>

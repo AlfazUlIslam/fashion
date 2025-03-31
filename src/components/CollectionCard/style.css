@@ -1,0 +1,30 @@
+.collection__card {
+    position: relative;
+    overflow: hidden;
+}
+
+.collection__card-img-container img {
+    width: 350px;
+    height: 410px;
+}
+
+.collection__card-btn {
+    width: 310px;
+    height: 60px;
+    border-radius: 20px;
+    background: #fff;
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translateX(-50%);
+    transition: linear 0.4s;
+}
+
+.collection__card:hover .collection__card-btn {
+    bottom: 45px;
+}
