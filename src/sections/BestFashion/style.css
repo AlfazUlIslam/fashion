@@ -1,3 +1,15 @@
-/* .best-fashion__container {
+.best-fashion__container {
     padding: 6rem 2rem;
-} */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-fashion__heading {
+    width: 390px;
+}
+
+.best-fashion__description {
+    width: 445px;
+    margin: 60px 0;
+}
