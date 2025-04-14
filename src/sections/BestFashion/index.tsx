@@ -11,7 +11,7 @@ const BestFashion: React.FC = () => {
             {/* Column one */}
             <Column classes="best-fashion__column-one">
                 <img 
-                    className="best-fashion__img-container" 
+                    className="best-fashion__img" 
                     src={bestFashionImage} 
                     alt="Best Fashion Image" 
                 />
@@ -26,7 +26,9 @@ const BestFashion: React.FC = () => {
                     classes="best-fashion__description"
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, odio pellentesque mattis pulvinar felis. At arcu ornare rhoncus, elementum non viverra."
                 />
-                <SectionBtn content="SEE MORE" />
+                <div className="best-fashion__btn-container">
+                    <SectionBtn content="SEE MORE" />
+                </div>
             </Column>
         </Container>
     </section>
