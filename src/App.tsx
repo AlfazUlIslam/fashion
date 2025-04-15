@@ -1,5 +1,5 @@
 import { Nav } from "./components"
-import { Hero, Collection, BestFashion } from "./sections"
+import { Hero, Collection, BestFashion, BestSeller } from "./sections"
 import './App.css'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Hero />
       <Collection />
       <BestFashion />
+      <BestSeller />
     </div>
   )
 }
