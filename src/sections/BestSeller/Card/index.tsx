@@ -18,7 +18,7 @@ const Card: React.FC<Props> = (props) => {
                 <img src={image} alt={altText} />
             </div>
             <div className="best-seller__card-body">
-                <div className="best-seller__card-rating">
+                <div className="best-seller__card-stars">
                     <div className="best-seller__card-star"></div>
                     <div className="best-seller__card-star"></div>
                     <div className="best-seller__card-star"></div>
@@ -29,11 +29,11 @@ const Card: React.FC<Props> = (props) => {
                     {title}
                 </h4>
                 <div className="best-seller__card-prices">
-                    <span className="best-seller__card-price-regular">
-                        ${regularPrice}
-                    </span>
-                    <span className="best-seller__card-price-discounted">
+                    <span className="best-seller__card-price best-seller__card-price--discounted">
                         ${discountedPrice}
+                    </span>
+                    <span className="best-seller__card-price">
+                        ${regularPrice}
                     </span>
                 </div>
             </div>
