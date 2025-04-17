@@ -1,5 +1,5 @@
 import { Nav } from "./components"
-import { Hero, Collection, BestFashion, BestSeller } from "./sections"
+import { Hero, Collection, BestFashion, BestSeller, Footer } from "./sections"
 import './App.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Collection />
       <BestFashion />
       <BestSeller />
+      <Footer />
     </div>
   )
 }
