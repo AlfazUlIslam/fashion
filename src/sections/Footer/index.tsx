@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
             {/* Footer row 1 */}
             <div className="footer__row-one">
                 {/* Menu column */}
-                <Column classes="footer__menu-column">
+                <Column classes="footer__column">
                     <Title content="Menu" />
                     {/* Links */}
-                    <div className="footer__links footer__links--mb">
+                    <div className="footer__links">
                         <Link href="#" content="Home" />
                         <Link href="#" content="Shop" />
                         <Link href="#" content="About" />
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                     </div>
                 </Column>
                 {/* Shop column */}
-                <Column classes="footer__shop-column">
+                <Column classes="footer__column">
                     <Title content="Shop" />
                     {/* Links */}
                     <div className="footer__links">
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                     </div>
                 </Column>
                 {/* Help column */}
-                <Column classes="footer__help-column">
+                <Column classes="footer__column">
                     <Title content="Help" />
                     {/* Links */}
                     <div className="footer__links">
@@ -47,15 +47,17 @@ const Footer: React.FC = () => {
                     </div>
                 </Column>
                 {/* Contact column */}
-                <Column classes="footer__contact-column">
-                    <Title content="(052) 611-5711" />
-                    <Title content="company@domain.com" />
+                <Column classes="footer__column">
+                    <div className="footer-contact-details">
+                        <Title content="(052) 611-5711" />
+                        <Title content="company@domain.com" />
+                    </div>
                     <address>
                         575 Crescent Ave. Quakertown, PA 18951
                     </address>
                 </Column>
                 {/* Brand column */}
-                <Column classes="footer__brand-column">
+                <Column classes="footer__column">
                     <div className="footer__logo">
                         <img src={logo} alt="Fashion Logo" />
                     </div>
