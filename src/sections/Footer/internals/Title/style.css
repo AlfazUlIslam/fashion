@@ -1,3 +1,6 @@
 .footer__title {
-    color: rebeccapurple;
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
 }

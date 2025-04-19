@@ -1,3 +1,6 @@
 .footer__link {
-    color: rebeccapurple;
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 14px;
+    color: #6d6d6d;
 }
